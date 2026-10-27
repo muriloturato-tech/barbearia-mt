@@ -3,33 +3,42 @@
 <head>
     <!-- Codificação -->
     <meta charset="UTF-8">
+    <!-- Responsividade mínima -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Título da aba -->
     <title>Barbearia MT</title>
     <!-- Ícone da aba -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💈</text></svg>">
+    <!-- Fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Ligação com o CSS externo -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
-    <header>
+    <!-- Cabeçalho (estilizado pelo id "topo") -->
+    <header id="topo">
         <h1>💈 Barbearia MT</h1>
     </header>
 
     <!-- Conteúdo principal -->
     <main>
-        <!-- Sobre -->
-        <section id="sobre">
+
+        <!-- Sobre (estilizado pela classe "secao") -->
+        <section class="secao">
             <h2>Sobre a barbearia</h2>
             <p>Eu sou o Murilo Turato, tenho 18 anos e moro em Jaguapitã, no Paraná.</p>
             <p>A Barbearia MT nasceu por causa do meu pai, que me inspirou a cortar cabelo. Hoje ele também trabalha comigo. ✂️</p>
             <!-- Imagem -->
             <img src="fotobarbearia.webp" alt="Foto da Barbearia MT" width="300">
-            <!-- Link interno -->
-            <p><a href="#contato">Ver contato da barbearia</a></p>
+            <!-- Link interno: leva para outro arquivo HTML -->
+            <p><a href="sobre.html">Saiba mais sobre a barbearia</a></p>
         </section>
 
         <!-- Serviços -->
-        <section id="servicos">
+        <section class="secao">
             <h2>Serviços</h2>
             <p>Veja o que a Barbearia MT oferece e como funciona o atendimento.</p>
 
@@ -59,7 +68,7 @@
         </section>
 
         <!-- Contato -->
-        <section id="contato">
+        <section class="secao">
             <h2>Contato</h2>
             <p>📍 Avenida Minas Gerais, 105 - Jaguapitã - PR</p>
             <p>📞 (43) 99660-8546</p>
@@ -68,6 +77,7 @@
                 <a href="https://www.instagram.com/murilin_docorte/" target="_blank">Saiba mais sobre nossos serviços.</a>
             </p>
         </section>
+
     </main>
 
     <!-- Rodapé -->

@@ -1,0 +1,63 @@
+/* Seletor de tag: fundo, cor do texto e fonte do Google Fonts */
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Seletor de tag, título principal centralizado */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #d4af37;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Agrupamento de seletores: h2 e h3 */
+h2, h3 {
+    color: #d4af37;
+    text-decoration: underline;
+}
+
+/* Seletor de id: cabeçalho */
+#topo {
+    padding: 20px;
+    border-bottom: 4px solid #d4af37;
+}
+
+/* Seletor de classe: cartões das seções */
+.secao {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #d4af37;
+    border-radius: 12px;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Links */
+a {
+    color: #d4af37;
+}
+
+/* Imagem e vídeo não passam da tela */
+img, video {
+    max-width: 100%;
+}
+
+/* Rodapé centralizado */
+footer {
+    text-align: center;
+}
